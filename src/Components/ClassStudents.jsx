@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 
-export default function ClassStudents({ classStudents }) {
+export default function ClassStudents({ classStudents, group }) {
   return (
     <>
       <tr className="bg-white/5">
         <td className="p-5 text-sm md:text-xl" colSpan="4">
-          Class One
+          {group}
         </td>
       </tr>
       {classStudents.map((student) => (

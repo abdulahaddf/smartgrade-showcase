@@ -8,6 +8,9 @@ export default function Students() {
   const classTwoStudents = data?.filter(
     (student) => student.class === "Class Two"
   );
+  const classThreeStudents = data?.filter(
+    (student) => student.class === "Class Three"
+  );
 
   return (
     <div>
@@ -28,10 +31,11 @@ export default function Students() {
             </tr>
           </thead>
             {/* <!-- class One --> */}
-            <ClassStudents classStudents={classOneStudents} />
             <tbody>
+            <ClassStudents classStudents={classOneStudents} group={"Class One"} />
             {/* <!-- class two --> */}
-            <ClassStudents classStudents={classTwoStudents} />
+            <ClassStudents classStudents={classTwoStudents} group={"Class Two"}/>
+            <ClassStudents classStudents={classThreeStudents} group={"Class Three"}/>
            
           </tbody>
         </table>

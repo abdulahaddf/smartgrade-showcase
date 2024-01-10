@@ -138,6 +138,76 @@
       "score": "B+",
       "percentage": 79.1,
       "class": "Class Two"
-    }
+    },
+    {
+        "id": 1,
+        "name": "Sophie Simmons",
+        "score": "A",
+        "percentage": 92.1,
+        "class": "Class Three"
+      },
+      {
+        "id": 2,
+        "name": "Max Morgan",
+        "score": "A-",
+        "percentage": 88.5,
+        "class": "Class Three"
+      },
+      {
+        "id": 3,
+        "name": "Ava Anderson",
+        "score": "B+",
+        "percentage": 79.8,
+        "class": "Class Three"
+      },
+      {
+        "id": 4,
+        "name": "Leo Lawrence",
+        "score": "A+",
+        "percentage": 94.3,
+        "class": "Class Three"
+      },
+      {
+        "id": 5,
+        "name": "Ella Edwards",
+        "score": "B",
+        "percentage": 85.6,
+        "class": "Class Three"
+      },
+      {
+        "id": 6,
+        "name": "Daniel Douglas",
+        "score": "A-",
+        "percentage": 90.7,
+        "class": "Class Three"
+      },
+      {
+        "id": 7,
+        "name": "Mila Mitchell",
+        "score": "B-",
+        "percentage": 76.9,
+        "class": "Class Three"
+      },
+      {
+        "id": 8,
+        "name": "Carter Carter",
+        "score": "A+",
+        "percentage": 96.5,
+        "class": "Class Three"
+      },
+      {
+        "id": 9,
+        "name": "Stella Stewart",
+        "score": "A",
+        "percentage": 89.4,
+        "class": "Class Three"
+      },
+      {
+        "id": 10,
+        "name": "Owen Olson",
+        "score": "B+",
+        "percentage": 78.2,
+        "class": "Class Three"
+      }
   ]
   
