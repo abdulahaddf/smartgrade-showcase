@@ -1,9 +1,7 @@
 /* eslint-disable react/prop-types */
 
 export default function ClassStudents({ students, group }) {
-    const classStudents = students?.filter(
-        (student) => student.class === group
-      );
+  const classStudents = students?.filter((student) => student.class === group);
   return (
     <>
       <tr className="bg-white/5">

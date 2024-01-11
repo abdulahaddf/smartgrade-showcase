@@ -2,7 +2,6 @@ import data from "../DB/fakeDb.json";
 import ClassStudents from "./ClassStudents";
 
 export default function Students() {
-  
   return (
     <div>
       <div className="max-w-[848px] mx-auto overflow-auto">
@@ -21,13 +20,13 @@ export default function Students() {
               </th>
             </tr>
           </thead>
-            {/* <!-- class One --> */}
-            <tbody>
+          {/* <!-- class One --> */}
+          <tbody>
             <ClassStudents students={data} group={"Class One"} />
             {/* <!-- class two --> */}
-            <ClassStudents students={data} group={"Class Two"}/>
+            <ClassStudents students={data} group={"Class Two"} />
             {/* <!-- class three --> */}
-            <ClassStudents students={data} group={"Class Three"}/>
+            <ClassStudents students={data} group={"Class Three"} />
           </tbody>
         </table>
       </div>
