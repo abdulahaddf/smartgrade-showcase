@@ -2,16 +2,7 @@ import data from "../DB/fakeDb.json";
 import ClassStudents from "./ClassStudents";
 
 export default function Students() {
-  const classOneStudents = data?.filter(
-    (student) => student.class === "Class One"
-  );
-  const classTwoStudents = data?.filter(
-    (student) => student.class === "Class Two"
-  );
-  const classThreeStudents = data?.filter(
-    (student) => student.class === "Class Three"
-  );
-
+  
   return (
     <div>
       <div className="max-w-[848px] mx-auto overflow-auto">
@@ -32,11 +23,11 @@ export default function Students() {
           </thead>
             {/* <!-- class One --> */}
             <tbody>
-            <ClassStudents classStudents={classOneStudents} group={"Class One"} />
+            <ClassStudents students={data} group={"Class One"} />
             {/* <!-- class two --> */}
-            <ClassStudents classStudents={classTwoStudents} group={"Class Two"}/>
-            <ClassStudents classStudents={classThreeStudents} group={"Class Three"}/>
-           
+            <ClassStudents students={data} group={"Class Two"}/>
+            {/* <!-- class three --> */}
+            <ClassStudents students={data} group={"Class Three"}/>
           </tbody>
         </table>
       </div>
